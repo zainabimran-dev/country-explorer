@@ -89,7 +89,7 @@ main {
 }
 
 .country-card {
-  background-color: #d9d9d9;
+  background-color: #e0e0e0;
   padding: 28.8px 20px;
   border-radius: 4px;
   display: flex;
@@ -125,64 +125,13 @@ main {
   background-color: #333333;
   color: #ffffff;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   font-size: 0.9rem;
   cursor: pointer;
 }
 
 #show-more-btn:hover {
   background-color: #4a4a4a;
-}
-
-.detail-main {
-  padding: 32px;
-}
-
-#back-btn {
-  height: 38.4px;
-  padding: 0 18px;
-  background-color: #555555;
-  color: #ffffff;
-  border: none;
-  border-radius: 4px;
-  font-size: 0.9rem;
-  cursor: pointer;
-}
-
-#back-btn:hover {
-  background-color: #444444;
-}
-
-.detail-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 16px;
-}
-
-#country-name {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-#country-flag {
-  max-width: 500px;
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-bottom: 20px;
-}
-
-.detail-info {
-  width: 100%;
-  max-width: 500px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 6px;
-  font-size: 0.95rem;
 }
 
 .detail-main {
